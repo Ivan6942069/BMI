@@ -36,6 +36,7 @@ namespace BMI
                     {
                         vypocet = Math.Pow(vyska / 100, 2);
                         vypocet = vaha / (vypocet);
+                        vypocet = Math.Floor(vypocet);
                         Console.WriteLine();
                         Console.Write($"Tvoje BMI je {vypocet}.");
                     }
