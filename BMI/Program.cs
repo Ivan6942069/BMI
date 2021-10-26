@@ -36,7 +36,7 @@ namespace BMI
                     {
                         vypocet = Math.Pow(vyska / 100, 2);
                         vypocet = vaha / (vypocet);
-                        vypocet = Math.Floor(vypocet);
+                        vypocet = Math.Round(vypocet);
                         Console.WriteLine();
                         if (vypocet > 40)
                         {
